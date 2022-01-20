@@ -14,8 +14,8 @@ RUN apt-get update && \
 RUN adduser --disabled-password --gecos '' metashape
 USER metashape
 
-ENV METASHAPE_VER=1_7_5 \
-    METASHAPE_WHEEL=Metashape-1.7.5-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl
+ENV METASHAPE_VER=1_8_0 \
+    METASHAPE_WHEEL=Metashape-1.8.0-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl
 
 # set The workdir
 WORKDIR /home/metashape
