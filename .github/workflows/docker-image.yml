@@ -8,6 +8,8 @@ on:
     branches: [ main ]
 
 env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
   METASHAPE_VER: 1_7_5
   METASHAPE_WHEEL: Metashape-1.7.5-cp35.cp36.cp37.cp38-abi3-linux_x86_64.whl
 
